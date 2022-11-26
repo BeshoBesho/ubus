@@ -134,6 +134,7 @@
     <ClCompile Include="Cancellation.cpp" />
     <ClCompile Include="Promotion.cpp" />
     <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Ride.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +148,7 @@
     <ClInclude Include="Node1.h" />
     <ClInclude Include="passenger.h" />
     <ClInclude Include="QueueADT.h" />
+    <ClInclude Include="Ride.h" />
     <ClInclude Include="StackADT.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Linked list.h" />

@@ -9,5 +9,6 @@ private:
 public:
 	passenger* p;
 	event();
+	~event();
 	void virtual execute() = 0;
 };

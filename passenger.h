@@ -4,7 +4,7 @@
 class passenger
 {
 public:
-	passenger();
+	passenger(classes c=Economy);
 	~passenger();	
 private:
 	Time Ready, Ride, Getoff;

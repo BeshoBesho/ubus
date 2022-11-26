@@ -45,6 +45,9 @@
     <ClCompile Include="Event.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Event.h">
@@ -93,6 +96,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ride.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

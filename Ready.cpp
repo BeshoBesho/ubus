@@ -12,7 +12,5 @@ ready::ready(classes X1, Time X2, int X3, Time X4, float X5, int X6)
 
 void ready::execute()
 {
-	p->set_class(TYP);
-
 }
 

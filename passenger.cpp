@@ -1,7 +1,7 @@
 #include "passenger.h"
-passenger::passenger()
+passenger::passenger(classes c)
 {
-	p_class = Economy;
+	p_class = c;
 }
 passenger::~passenger()
 {

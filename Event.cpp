@@ -1,5 +1,5 @@
 #include "Event.h"
-event::event()
+event::event() 
 {
 
 }
