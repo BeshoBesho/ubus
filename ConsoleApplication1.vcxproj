@@ -18,6 +18,36 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\ArrayStack.h" />
+    <ClInclude Include="..\source\Bus.h" />
+    <ClInclude Include="..\source\Cancellation.h" />
+    <ClInclude Include="..\source\Event.h" />
+    <ClInclude Include="..\source\File reading.h" />
+    <ClInclude Include="..\source\info.h" />
+    <ClInclude Include="..\source\Linked list.h" />
+    <ClInclude Include="..\source\LinkedQueue.h" />
+    <ClInclude Include="..\source\Node.h" />
+    <ClInclude Include="..\source\Node1.h" />
+    <ClInclude Include="..\source\passenger.h" />
+    <ClInclude Include="..\source\Promotion.h" />
+    <ClInclude Include="..\source\QueueADT.h" />
+    <ClInclude Include="..\source\Ready.h" />
+    <ClInclude Include="..\source\Ride.h" />
+    <ClInclude Include="..\source\StackADT.h" />
+    <ClInclude Include="..\source\Time.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\Bus.cpp" />
+    <ClCompile Include="..\source\Cancellation.cpp" />
+    <ClCompile Include="..\source\Event.cpp" />
+    <ClCompile Include="..\source\passenger.cpp" />
+    <ClCompile Include="..\source\Promotion.cpp" />
+    <ClCompile Include="..\source\Ready.cpp" />
+    <ClCompile Include="..\source\Ride.cpp" />
+    <ClCompile Include="..\source\Time.cpp" />
+    <ClCompile Include="..\source\ubus.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -127,35 +157,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Bus.cpp" />
-    <ClCompile Include="passenger.cpp" />
-    <ClCompile Include="Ready.cpp" />
-    <ClCompile Include="Cancellation.cpp" />
-    <ClCompile Include="Promotion.cpp" />
-    <ClCompile Include="Event.cpp" />
-    <ClCompile Include="Ride.cpp" />
-    <ClCompile Include="Time.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Bus.h" />
-    <ClInclude Include="Event.h" />
-    <ClInclude Include="Cancellation.h" />
-    <ClInclude Include="ArrayStack.h" />
-    <ClInclude Include="File reading.h" />
-    <ClInclude Include="info.h" />
-    <ClInclude Include="LinkedQueue.h" />
-    <ClInclude Include="Node1.h" />
-    <ClInclude Include="passenger.h" />
-    <ClInclude Include="QueueADT.h" />
-    <ClInclude Include="Ride.h" />
-    <ClInclude Include="StackADT.h" />
-    <ClInclude Include="Node.h" />
-    <ClInclude Include="Linked list.h" />
-    <ClInclude Include="Promotion.h" />
-    <ClInclude Include="Ready.h" />
-    <ClInclude Include="Time.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
